@@ -1,5 +1,64 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-evanphx-json-patch (5.2.0-2) unstable; urgency=medium
 
-  * Initial release
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + golang-github-evanphx-json-patch-dev: Add Multi-Arch: foreign.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Wed, 23 Nov 2022 23:25:32 +0000
+
+golang-github-evanphx-json-patch (5.2.0-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+  [ Arthur Diniz ]
+  * New upstream version 5.2.0
+
+ -- Arthur Diniz <arthurbdiniz@gmail.com>  Sat, 16 Jan 2021 03:46:00 -0300
+
+golang-github-evanphx-json-patch (4.6.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * Added myself to Uploaders
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Thu, 26 Dec 2019 13:06:53 +1100
+
+golang-github-evanphx-json-patch (4.5.0-1) unstable; urgency=medium
+
+  * New upstream version 4.5.0
+  * Add dependency on golang-github-pkg-errors-dev
+  * Drop shlibs depends in -dev package
+  * Adds rules-requires-root: no
+  * Update package description
+  * Re-order fields in control file
+  * Update watch file per dh-make-golang
+
+ -- Arnaud Rebillout <arnaud.rebillout@collabora.com>  Wed, 18 Dec 2019 16:01:08 +0700
+
+golang-github-evanphx-json-patch (4.1.0-1) unstable; urgency=medium
+
+  [ Paul Tagliamonte ]
+  * Use a secure transport for the Vcs-Git and Vcs-Browser URL
+
+  [ Alexandre Viau ]
+  * Point Vcs-* urls to salsa.debian.org.
+
+  [ Arnaud Rebillout ]
+  * wrap-and-sort -ta
+  * Update copyright formal url
+  * Bump compat from 9 to 12
+  * Update various fields in control file
+  * New upstream version 4.1.0
+  * Exclude cmd from the build (we're only interested in the library)
+  * Add myself as an uploader
+  * Update upstream copyright
+
+ -- Arnaud Rebillout <arnaud.rebillout@collabora.com>  Wed, 23 Oct 2019 19:50:49 +1100
+
+golang-github-evanphx-json-patch (0.0~git20150402.0.766277e-1) unstable; urgency=medium
+
+  * Initial release (Closes: #803905)
+
+ -- Tim Potter <tpot@hpe.com>  Tue, 03 Nov 2015 13:59:20 +1100
