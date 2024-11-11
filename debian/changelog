@@ -1,3 +1,13 @@
+golang-github-evanphx-json-patch (5.7.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version 5.7.0
+  * Section golang
+  * dh-sequence-golang
+  * Standards-Version: 4.6.2
+
+ -- Jérémy Lal <kapouer@melix.org>  Sun, 31 Dec 2023 02:47:44 +0100
+
 golang-github-evanphx-json-patch (5.2.0-2) unstable; urgency=medium
 
   [ Debian Janitor ]
